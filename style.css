@@ -70,6 +70,7 @@ footer {
     }
 
     .menu-links.active {
+        transition: 1s;
         display: flex;
     }
 }
@@ -82,4 +83,8 @@ button.botao-menu {
 
 button.botao-menu:hover {
     background-color: #2481be;
+}
+
+h2 {
+    color: #6d2357;
 }
