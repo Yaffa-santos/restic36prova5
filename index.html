@@ -1,0 +1,81 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde e Cuidados Pessoais</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Saúde e Bem-estar</h1>
+        </div>
+        <nav class="menu-expansivo">
+            <button class="menu-btn">☰</button>
+            <ul class="menu-links">
+                <li><button class="botao-menu" onclick="funcoes.mudarSecao('inicio')">Início</button></li>
+                <li><button class="botao-menu" onclick="funcoes.mudarSecao('alimentacao')">Alimentação</button></li>
+                <li><button class="botao-menu" onclick="funcoes.mudarSecao('exercicios')">Exercícios</button></li>
+                <li><button class="botao-menu" onclick="funcoes.mudarSecao('saude-mental')">Saúde mental</button></li>
+                <li><button class="botao-menu" onclick="funcoes.mudarSecao('imc')">Calculadora IMC</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="secao">
+        <h2>Bem-vindo ao site sobre Saúde e Cuidados Pessoais</h2>
+        <p>A sua saúde é um dos bens mais preciosos e, por isso, cuidar dela deve ser uma prioridade. Neste site, você encontrará informações importantes sobre como manter uma vida equilibrada e saudável. Nossa missão é oferecer conteúdos acessíveis e práticos que possam ajudar você a adotar hábitos saudáveis no dia a dia, seja na alimentação, nos exercícios físicos ou no cuidado com a saúde mental. Navegue pelas nossas seções e descubra dicas valiosas para melhorar o seu bem-estar e qualidade de vida.</p>
+    </section>
+
+    <section id="alimentacao" class="secao">
+        <h2>Alimentação Saudável</h2>
+        <p>Inclua frutas e verduras no seu dia a dia: Ricas em vitaminas, minerais e fibras, elas ajudam na digestão e fortalecem o sistema imunológico.</p>
+        <p>Prefira alimentos integrais: Eles são menos processados e mantêm suas propriedades nutricionais, como o arroz integral, aveia e pão integral.</p>
+        <p>Hidrate-se: Beber água regularmente é essencial para o bom funcionamento do organismo. Procure consumir pelo menos 2 litros de água por dia.</p>
+        <p>Moderação é a chave: Evite o consumo excessivo de alimentos industrializados, ricos em açúcares e gorduras. Aprender a ler os rótulos dos alimentos é uma excelente maneira de controlar a qualidade da sua dieta.</p>
+    </section>
+
+    <section id="exercicios" class="secao">
+        <h2>Exercícios Físicos</h2>
+        <p>A prática regular de exercícios físicos é essencial para manter o corpo saudável, aumentar a disposição e prevenir doenças. Não importa seu nível de condicionamento físico, sempre é possível encontrar uma atividade que se adeque à sua rotina. Abaixo estão algumas sugestões para diferentes perfis de usuários:</p>
+        <ul>
+            <li>Iniciantes: Se você está começando, atividades como caminhadas leves, alongamentos e exercícios simples com o peso do corpo (como agachamentos e flexões) são ótimos pontos de partida.</li>
+            <li>Intermediários: Quem já pratica alguma atividade pode incluir corridas, treinos de resistência (como musculação ou treinamento funcional), e atividades aeróbicas mais intensas, como ciclismo ou natação.</li>
+            <li>Avançados: Para aqueles que buscam desafios maiores, o foco pode estar no aumento da intensidade e frequência dos treinos, como treinos intervalados de alta intensidade (HIIT), maratonas, triatlos, e levantamento de peso olímpico.</li>
+        </ul>
+        <p>Lembre-se: o mais importante é manter uma rotina regular e escolher atividades que você realmente goste, para que o exercício se torne um hábito prazeroso.</p>
+    </section>
+
+    <section id="saude-mental" class="secao">
+        <h2>Saúde Mental</h2>
+        <p>Estratégias para cuidar do bem-estar emocional e mental.</p>
+        <p>A saúde mental é tão importante quanto a saúde física. No entanto, muitas vezes ela é negligenciada. Estresse, ansiedade e depressão são problemas comuns no mundo moderno, mas existem formas eficazes de cuidar da sua mente e manter o equilíbrio emocional:</p>
+        <p>Pratique a meditação: A meditação é uma técnica eficaz para acalmar a mente, reduzir o estresse e melhorar o foco. Reserve alguns minutos do seu dia para meditar e aproveitar seus benefícios.</p>
+        <p>Tenha momentos de lazer: O lazer é fundamental para recarregar as energias e manter a motivação no dia a dia. Dedique-se a hobbies e atividades que lhe tragam prazer.</p>
+        <p>Desenvolva a resiliência emocional: A vida é cheia de desafios, mas aprender a enfrentá-los de maneira saudável pode fazer toda a diferença. Procure desenvolver o autoconhecimento e práticas de autocuidado para lidar melhor com as situações difíceis.</p>
+        <p>Peça ajuda quando necessário: Não hesite em buscar apoio de amigos, familiares ou profissionais de saúde mental quando sentir que precisa de suporte. Terapia e aconselhamento psicológico podem ser ferramentas valiosas para enfrentar momentos difíceis.</p>
+    </section>
+
+    <section id="imc" class="secao">
+        <h2>Calculadora de IMC</h2>
+        <p>O Índice de Massa Corporal (IMC) é uma métrica amplamente utilizada para avaliar se o peso de uma pessoa está adequado à sua altura. O IMC ajuda a identificar possíveis riscos à saúde, como desnutrição, sobrepeso e obesidade.</p>
+        <p>Para calcular o seu IMC, basta inserir seu peso e altura nos campos indicados. Após o cálculo, você será informado sobre qual a sua classificação, conforme os critérios da Organização Mundial da Saúde (OMS):</p>
+        <p>Abaixo do peso: IMC abaixo de 18,5</p>
+        <p>Peso normal: IMC entre 18,5 e 24,9</p>
+        <p>Sobrepeso: IMC entre 25 e 29,9</p>
+        <p>Obesidade: IMC acima de 30</p>
+        <p>Lembre-se de que o IMC é apenas um indicador e não substitui a avaliação profissional. Consulte um médico ou nutricionista para uma análise mais detalhada da sua saúde física.</p>
+        <form id="imc-form">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" required>
+            <br>
+            <label for="altura">Altura (m):</label>
+            <input type="number" id="altura" step="0.01" required>
+            <br>
+            <button type="button" id="botao-imc">Calcular IMC</button>
+        </form>
+        <p id="resultado"></p>
+    </section>
+</body>
+</html>

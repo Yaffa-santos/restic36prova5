@@ -1,0 +1,85 @@
+:root {
+    --cor-fundo: #527bc7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--cor-fundo);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.menu-expansivo {
+    position: relative;
+}
+
+.menu-btn {
+    background-color: var(--cor-fundo);
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-links li {
+    margin: 10px;
+}
+
+.menu-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .menu-links {
+        flex-direction: column;
+        display: none;
+    }
+
+    .menu-links.active {
+        display: flex;
+    }
+}
+
+button.botao-menu {
+    padding: 10px;
+    background-color: #0b4f7c;
+    color: white;
+}
+
+button.botao-menu:hover {
+    background-color: #2481be;
+}
